@@ -92,11 +92,56 @@ header .shop-cart {
   top:30px;
   right: 0;
   width: 450px;
-  min-height: 100px;
+  padding: 20px;
+  padding-bottom: 0;
   background: #f2f2f2;
   -webkit-box-shadow: 13px 4px 8px -9px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 13px 4px 8px -9px rgba(34, 60, 80, 0.2);
   box-shadow: 13px 4px 8px -9px rgba(34, 60, 80, 0.2);
+}
+
+header .shop-cart .empty h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+header .shop-cart .item {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+header .shop-cart .item img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+}
+
+header .shop-cart .item h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+header .shop-cart .item p {
+  color:#797979;
+  font-weight: 600;
+  font-size: 15px;
+  max-width: 300px;
+}
+
+header .shop-cart .item .rm-to-cart{
+  color: #ca5252;
+  position: relative;
+  top:-20px;
+  font-size: 25px;
+  float: right;
+  cursor: pointer;
+  transition: color,transoform 0.5s ease;
+}
+
+header .shop-cart .item .rm-to-cart:hover{
+  color: #9e2727;
+  transform: scale(1.5);
 }
 
 main{
